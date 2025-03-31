@@ -1,0 +1,32 @@
+@LaurenTodoList.Api.App_HostAddress = http://localhost:8080
+@MapGroup = api/todo
+
+GET {{LaurenTodoList.Api.App_HostAddress}}/{{MapGroup}}/
+Accept: application/json
+
+###
+
+GET {{LaurenTodoList.Api.App_HostAddress}}/{{MapGroup}}/date/2025-03-31
+Accept: application/json
+
+###
+
+GET {{LaurenTodoList.Api.App_HostAddress}}/{{MapGroup}}/uncompleted/2025-03-31
+Accept: application/json
+
+###
+
+POST {{LaurenTodoList.Api.App_HostAddress}}/{{MapGroup}}/
+Accept: application/json
+
+###
+
+PUT {{LaurenTodoList.Api.App_HostAddress}}/{{MapGroup}}/1
+Accept: application/json
+
+###
+
+DELETE {{LaurenTodoList.Api.App_HostAddress}}/{{MapGroup}}/1
+Accept: application/json
+
+###
